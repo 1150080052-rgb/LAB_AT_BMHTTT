@@ -70,7 +70,6 @@ Hệ thống được thiết kế với 3 phân vùng mạng tách biệt[cite:
 
 ---
 
-## 5. Cấu trúc thư mục nộp bài
 
 ```text
 ├── docs/
