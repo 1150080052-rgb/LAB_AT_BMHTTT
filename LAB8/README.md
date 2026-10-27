@@ -32,14 +32,3 @@
 - Task 1 (hosts file redirect), Task 2 (direct DNS spoofing), Task 3 (cache poisoning) — chưa chạy, chưa có ảnh Wireshark.
 - Khôi phục môi trường + trả Promiscuous Mode về Deny.
 
-## Đã có sẵn (để nộp tạm)
-- 10 câu trả lời phần L.1 (câu hỏi phân tích) — đã soạn xong, gửi trong chat trước đó.
-- Ảnh minh chứng pfSense DNSLAB interface + ruleset (mục L.2, dòng đầu tiên).
-
-## Việc cần làm tiếp (theo thứ tự)
-1. Clone VM Ubuntu gốc → DNS-SERVER, VICTIM, INFRA.
-2. Gán IP tĩnh + card dns-lab cho từng máy, gỡ NAT.
-3. Cấu hình BIND9 trên DNS-SERVER, verify bằng `named-checkconf`/`named-checkzone`.
-4. Baseline DNS trước khi tấn công.
-5. Chạy lần lượt Task 1 → 2 → 3, chụp ảnh Wireshark theo bảng yêu cầu mục H.4.
-6. Khôi phục môi trường, chụp ảnh Promiscuous Mode = Deny.
