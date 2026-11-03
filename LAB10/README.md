@@ -45,10 +45,3 @@
 8. Task 2: bảng so sánh trước/sau cache + trả lời câu hỏi bailiwick/glue.
 9. Khôi phục BIND9, kiểm tra lại source-port randomization, tắt rule UDP/5300 sau khi xong.
 
-## Việc cần làm tiếp (theo thứ tự)
-1. Thêm 5 rule ATTACKNET trên pfSense.
-2. Dựng AUTH-DNS relay trên 172.16.6.20, test baseline DNS.
-3. Xác nhận cô lập Kali khỏi DNSLAB (ảnh Wireshark).
-4. Chạy resolver dễ tổn thương + chạy attack script Task 1, thu log + packet capture.
-5. Hoàn thành Task 2 (bảng so sánh cache).
-6. Khôi phục + hardening, tắt rule race relay.
